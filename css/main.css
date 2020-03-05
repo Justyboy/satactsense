@@ -981,8 +981,8 @@ input, select, textarea {
 						}
 
 				.row.gtr-150 {
-					margin-top: 0;
-					margin-left: -3em;
+    margin-top: 0;
+    margin-left: -5em;
 				}
 
 					.row.gtr-150 > * {
@@ -2389,7 +2389,8 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				width: 100%;
+    width: 100%;
+    height: 100%;
 			}
 
 /* List */
@@ -2813,7 +2814,7 @@ input, select, textarea {
 /* Main */
 
 	.main {
-		padding: 6em 0 4em 0 ;
+		padding: 6em 0 6em 0 ;
 	}
 
 		.main.style1 {
@@ -2821,11 +2822,19 @@ input, select, textarea {
 		}
 
 		.main.style2 {
-			background-color: #333;
-			color: rgba(255, 255, 255, 0.75);
-			background-attachment: fixed,							fixed;
-			background-image: url("../images/overlay1.png"), url("../images/pic04.jpg");
-			background-size: auto,							cover;
+    color: rgba(255, 255, 255, 0.75);
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url("images/group.jpg")no-repeat fixed;
+}
+.main.style3 {
+    color: white;
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url("images/2girls.jpg")no-repeat fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    padding-bottom: 21em;
+    margin-bottom: 5px;
+
 		}
 
 			.main.style2 a {
@@ -2911,16 +2920,22 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("../images/overlay2.png"), url("../images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
-		overflow: hidden;
-		position: relative;
-		text-align: center;
+    padding-top: 6em;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 6em;
+    color: rgba(255,255,255,0.99);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    opacity: 1;
+    font-family: "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-style: normal;
+    font-weight: 400;
+    background-repeat: no-repeat;
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url("images/books.jpg")no-repeat fixed;
 	}
 
 		#header a {
@@ -3107,14 +3122,16 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 6em 0 ;
-		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("../images/overlay2.png"), url("../images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
-		text-align: center;
+    padding-top: 2em;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 2em;
+    color: rgba(255, 255, 255, 0.75);
+    background-attachment: fixed,							fixed,							fixed;
+    background-position: top left,						center center,					center center;
+    background-size: auto,							cover,							cover;
+    text-align: center;
+    background-color: #1A1A1A;
 	}
 
 		#footer a {
@@ -3269,18 +3286,25 @@ input, select, textarea {
 		/* Main */
 
 			.main {
-				padding: 4em 0 2em 0 ;
+    padding-top: 4em;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 4em;
 			}
 
 				.main.style2 {
-					background-attachment: scroll;
+    background-attachment: fixed;
+    background-size: cover;
 				}
 
 		/* Header */
 
 			#header {
-				padding: 5em 0 5em 0 ;
-				background-attachment: scroll;
+    padding: 5em 0 5em 0;
+    background-attachment: fixed;
+    text-shadow: 0px 0px;
+    background-size: cover;
+    background-position: center center;
 			}
 
 				#header br {
@@ -3290,8 +3314,11 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 4em 0 4em 0 ;
-				background-attachment: scroll;
+    padding-top: 2.5em;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 2.5em;
+    background-attachment: scroll;
 			}
 
 	}
@@ -3302,6 +3329,11 @@ input, select, textarea {
 
 		/* List */
 
+		img {
+    height: 400px;
+    max-width: 75%;
+    margin: 0 auto;
+		}
 			ul.major-icons li {
 				padding: 2em;
 			}
@@ -3321,19 +3353,22 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 8em 3em 8em 3em ;
+    padding-top: 5em;
+    padding-right: 3em;
+    padding-left: 3em;
+    padding-bottom: 4em;
 			}
 
 		/* Footer */
 
 			#footer {
-				padding: 5em 3em 5em 3em ;
+				padding: 4em 3em 4em 3em ;
 			}
 
 		/* One */
 
 			#one {
-				text-align: center;
+    text-align: center;
 			}
 
 		/* Two */
@@ -3369,6 +3404,11 @@ input, select, textarea {
 			h4 {
 				font-size: 1em;
 			}
+		img {
+			height: 300px;
+			max-width: 55%;
+			margin: 0 auto;
+		}
 
 		/* List */
 
@@ -3422,7 +3462,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 3em 1.5em 3em 1.5em ;
+				padding: 2em 1.5em 2em 1.5em ;
 			}
 
 	}
