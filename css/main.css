@@ -278,7 +278,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.container {
-				max-width: calc(100% - 3em);
+				max-width: calc(100% - 2em);
 			}
 
 		}
