@@ -771,7 +771,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1140px) {
+		@media screen and (max-width : 1464px ){
 
 			.row {
 				display: flex;
@@ -3259,7 +3259,7 @@ input, select, textarea {
 
 /* Large */
 
-	@media screen and (max-width: 1140px) {
+	@media screen and (max-width : 1464px ){
 
 		/* Basic */
 
@@ -3330,8 +3330,8 @@ input, select, textarea {
 		/* List */
 
 		img {
-    height: 400px;
-    max-width: 75%;
+    max-height: 355px;
+    max-width: 55%;
     margin: 0 auto;
 		}
 			ul.major-icons li {
