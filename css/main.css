@@ -2932,7 +2932,7 @@ input, select, textarea {
     font-style: normal;
     font-weight: 400;
     background-repeat: no-repeat;
-    background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url("../images/books.jpg")no-repeat fixed;
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url("../images/books1.jpg")no-repeat fixed;
 	}
 
 		#header a {
