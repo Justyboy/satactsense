@@ -771,7 +771,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width : 1464px ){
+		@media screen and (max-width : 1837px ){
 
 			.row {
 				display: flex;
@@ -988,7 +988,7 @@ input, select, textarea {
 					.row.gtr-150 > * {
     padding-top: 0;
     padding-right: 0;
-    padding-left: 6em;
+    padding-left: 3em;
     padding-bottom: 0;
 					}
 
@@ -2824,7 +2824,7 @@ input, select, textarea {
 		.main.style2 {
     color: rgba(255, 255, 255, 0.75);
     background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url("../images/group.jpg")no-repeat fixed;
-			background-size: cover;
+    background-size: cover;
 }
 .main.style3 {
     color: white;
@@ -3048,21 +3048,21 @@ input, select, textarea {
 			}
 
 		#header .inner {
-			-moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
-			-webkit-transition: -webkit-transform 1.5s ease, opacity 2s ease;
-			-ms-transition: -ms-transform 1.5s ease, opacity 2s ease;
-			transition: transform 1.5s ease, opacity 2s ease;
-			-moz-transition-delay: 0.25s;
-			-webkit-transition-delay: 0.25s;
-			-ms-transition-delay: 0.25s;
-			transition-delay: 0.25s;
-			-moz-transform: scale(1);
-			-webkit-transform: scale(1);
-			-ms-transform: scale(1);
-			transform: scale(1);
-			opacity: 1;
-			position: relative;
-			z-index: 1;
+    -moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
+    -webkit-transition: -webkit-transform 1.5s ease, opacity 2s ease;
+    -ms-transition: -ms-transform 1.5s ease, opacity 2s ease;
+    transition: transform 1.5s ease, opacity 2s ease;
+    -moz-transition-delay: 0.25s;
+    -webkit-transition-delay: 0.25s;
+    -ms-transition-delay: 0.25s;
+    transition-delay: 0.25s;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    position: relative;
+    z-index: 1;
 		}
 
 			#header .inner .actions {
@@ -3256,7 +3256,7 @@ input, select, textarea {
 
 /* Large */
 
-	@media screen and (max-width : 1464px ){
+	@media screen and (max-width : 1837px ){
 
 		/* Basic */
 
@@ -3292,16 +3292,23 @@ input, select, textarea {
 				.main.style2 {
     background-attachment: fixed;
     background-size: cover;
+    padding-top: 85px;
+    padding-bottom: 80px;
+    margin-bottom: 0px;
+    margin-top: -29px;
 				}
 
 		/* Header */
 
 			#header {
-    padding: 5em 0 5em 0;
+    padding-top: 8em;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 10em;
     background-attachment: fixed;
     text-shadow: 0px 0px;
     background-size: cover;
-    background-position: center center;
+    background-position: center top;
 			}
 
 				#header br {
