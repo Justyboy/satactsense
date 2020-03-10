@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Pacifico|Russo+One&display=swap" rel="stylesheet">
 
     <!-- Add custom CSS here -->
     <link href="css/style.css" rel="stylesheet">
@@ -16,52 +17,74 @@
 	</head>
 	<body class="is-preload">
 		
- <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-				
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only"></span>
+                    <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
-                <a class="navbar-brand" href="index.html">SAT/ACT Sense</a>
+                <a class="navbar-brand" href="index.html">Modern Business</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">About</a>
+                    <li><a href="about.html">About</a>
                     </li>
-                    <li class="#"><a href="#">Services</a>
+                    <li><a href="services.html">Services</a>
                     </li>
-                    <li><a href="#">Contact</a>
-                    </li>           
-                    <li><a href="#">FAQ</a>
+                    <li><a href="contact.php">Contact</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="portfolio-1-col.html">1 Column Portfolio</a>
+                            </li>
+                            <li><a href="portfolio-2-col.html">2 Column Portfolio</a>
+                            </li>
+                            <li><a href="portfolio-3-col.html">3 Column Portfolio</a>
+                            </li>
+                            <li><a href="portfolio-4-col.html">4 Column Portfolio</a>
+                            </li>
+                            <li><a href="portfolio-item.html">Single Portfolio Item</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="blog-home-1.html">Blog Home 1</a>
+                            </li>
+                            <li><a href="blog-home-2.html">Blog Home 2</a>
+                            </li>
+                            <li><a href="blog-post.html">Blog Post</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="full-width.html">Full Width Page</a>
+                            </li>
+                            <li><a href="sidebar.html">Sidebar Page</a>
+                            </li>
+                            <li class="active"><a href="faq.html">FAQ</a>
+                            </li>
+                            <li><a href="404.html">404</a>
+                            </li>
+                            <li><a href="pricing.html">Pricing Table</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse 
-			
-			  <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">About</a>
-                            </li>
-                            <li><a href="#">Services</a>
-                            </li>
-                            <li><a href="#">Contact</a>
-                            </li>
-                            <li><a href="#">FAQ</a>
-                            </li>
-                            
-                        </ul>
-                    </li>
-      
+            <!-- /.navbar-collapse -->
+        </div>
         <!-- /.container -->
-			  </div>
     </nav>
 
 		
@@ -70,10 +93,10 @@
 			<section id="header">
 				<div class="inner">
 				
-					<h1>Welcome to<br> <strong>SAT/ACT Sense</strong><br /> </h1>
+					<h1>Welcome to<br> <span class="title">SAT/ACT Sense</span><br /> </h1>
 					
-					<p>Making sense of the SAT & ACT<br />
-					</p>
+					<h5>Making sense of the SAT & ACT<br />
+					</h5>
 					
 					<ul class="actions special">
 						<li><a href="#offer" class="button scrolly">Start Learning</a></li>
@@ -90,7 +113,7 @@
 								<h2>Find the right Tutor
 								</h2>
 							</header>
-							<p>We have an eclectic team of instructors from all different academic fields including: high school teachers, college professors, and even MBA graduate students. However, all our tutors have one common purpose: to help each student we tutor get the highest possible score on test day by teaching the most effective test taking and time management strategies.
+							<p>We have an eclectic team of instructors from all different academic fields including: high school teachers, college professors, and even MBA graduate students. However, all our tutors have one common purpose: to help each student we tutor get the highest possible score on test day by teaching the most effective test taking and time management strategies.<br>
 </p>
 						</div>
 						<div class="col-5 col-12-medium imp-medium">
@@ -126,7 +149,7 @@
 					<header class="major">
 						<h2>What we offer</h2>
 					</header>
-					<h4>SAT/ACT Sense offers one-on-one or small group tutoring for the PSAT/SAT, ACT, Subject Tests, and academic subjects, in your home, and on your schedule. Tutoring lessons can also be scheduled at local libraries, after school facilities, and community centers.</h4><br>
+					<h4>SAT/ACT Sense offers one-on-one or small group tutoring for the PSAT/SAT, ACT, Subject Tests, and academic subjects, in your home, and on your schedule.<br> Tutoring lessons can also be scheduled at local libraries, after school facilities, and community centers.</h4><br>
 					<div class="row gtr-150">
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img src="images/3kids.jpg" alt="" /></span>
@@ -185,13 +208,16 @@
 				</ul>
 			</section>
 
-		<!-- Scripts -->
+		
+ 	<!-- Scripts -->
 			<script src="js/jquery.min.js"></script>
 			<script src="js/jquery.scrolly.min.js"></script>
 			<script src="js/browser.min.js"></script>
 			<script src="js/breakpoints.min.js"></script>
 			<script src="js/util.js"></script>
 			<script src="js/main.js"></script>
-			<script src="js/main2.js"></script>
+			
+
+		
 	</body>
 </html>

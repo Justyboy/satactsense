@@ -93,11 +93,10 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #666;
-	
-		font-size: 16pt;
-		font-weight: 300;
-		line-height: 1.65em;
+    color: #666;
+    font-size: 20pt;
+    font-weight: 300;
+    line-height: 1.65em;
 	}
 
 	a {
@@ -125,7 +124,10 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 2em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -140,8 +142,8 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.25em;
-		line-height: 1.35em;
+    font-size: 2.25em;
+    line-height: 1.35em;
 	}
 
 	h2 {
@@ -266,7 +268,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width : 835px ){
 
 			.container {
 				max-width: 100% !important;
@@ -526,7 +528,7 @@ input, select, textarea {
 					padding-top: 4em;
 				}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width : 849px ){
 
 			.row {
 				display: flex;
@@ -771,7 +773,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width : 1837px ){
+		@media screen and (max-width : 1216px ){
 
 			.row {
 				display: flex;
@@ -1019,7 +1021,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width : 835px ){
 
 			.row {
 				display: flex;
@@ -1264,7 +1266,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width : 677px ){
 
 			.row {
 				display: flex;
@@ -2366,6 +2368,8 @@ input, select, textarea {
 		.image img {
 			border-radius: 4px;
 			display: block;
+			 background-size: cover;
+    background-position: center top;
 		}
 
 		.image.left {
@@ -2386,6 +2390,8 @@ input, select, textarea {
 
 			.image.left img, .image.right img {
 				width: 100%;
+				 background-size: cover;
+    background-position: center top;
 			}
 
 		.image.fit {
@@ -2836,8 +2842,7 @@ input, select, textarea {
     color: white;
     background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url("../images/2girls.jpg")no-repeat fixed;
     background-size: cover;
-    margin-bottom: 5px;
-    padding-top: 7em;
+    padding-top: 4em;
 		}
 
 			.main.style2 a {
@@ -2923,10 +2928,10 @@ input, select, textarea {
 /* Header */
 
 	#header {
-    padding-top: 6em;
+    padding-top: 10em;
     padding-right: 0;
     padding-left: 0;
-    padding-bottom: 6em;
+    padding-bottom: 10em;
     color: rgba(255,255,255,0.99);
     background-attachment: fixed;
     background-size: cover;
@@ -2936,7 +2941,7 @@ input, select, textarea {
     opacity: 1;
     font-family: "Lucida Bright", "DejaVu Serif", Georgia, serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     background-repeat: no-repeat;
     background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url("../images/books.jpg")no-repeat fixed;
 	}
@@ -2950,7 +2955,10 @@ input, select, textarea {
 			}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
-			color: #ffffff;
+    color: #ffffff;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -9px;
 		}
 
 		#header header p {
@@ -3022,7 +3030,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			margin: 0;
+
 		}
 
 		#header p {
@@ -3069,6 +3077,8 @@ input, select, textarea {
     opacity: 1;
     position: relative;
     z-index: 1;
+    padding-top: 0px;
+    line-height: 41px;
 		}
 
 			#header .inner .actions {
@@ -3103,11 +3113,14 @@ input, select, textarea {
 		}
 
 	body.is-preload #header .inner {
-		-moz-transform: scale(1.05);
-		-webkit-transform: scale(1.05);
-		-ms-transform: scale(1.05);
-		transform: scale(1.05);
-		opacity: 0;
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 0;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 19px;
 	}
 
 		body.is-preload #header .inner .actions {
@@ -3244,7 +3257,7 @@ input, select, textarea {
 
 /* XLarge */
 
-	@media screen and (max-width: 1680px) {
+	@media screen and (max-width : 849px ){
 
 		/* Basic */
 
@@ -3262,7 +3275,7 @@ input, select, textarea {
 
 /* Large */
 
-	@media screen and (max-width : 1837px ){
+	@media screen and (max-width : 1216px ){
 
 		/* Basic */
 
@@ -3335,7 +3348,7 @@ input, select, textarea {
 
 /* Medium */
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width : 835px ){
 
 		/* List */
 
@@ -3343,6 +3356,8 @@ input, select, textarea {
     max-height: 355px;
     max-width: 55%;
     margin: 0 auto;
+			 background-size: cover;
+    background-position: center top;
 		}
 			ul.major-icons li {
 				padding: 2em;
@@ -3391,7 +3406,7 @@ input, select, textarea {
 
 /* Small */
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width : 677px ){
 
 		/* Basic */
 
@@ -3418,6 +3433,8 @@ input, select, textarea {
 			height: 300px;
 			max-width: 75%;
 			margin: 0 auto;
+			 background-size: cover;
+    background-position: center top;
 		}
 
 		/* List */
@@ -3558,3 +3575,15 @@ input, select, textarea {
 			}
 
 	}
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+
+		img {
+			 background-size: cover;
+    background-position: center top;
+			
+		}
+
+}
