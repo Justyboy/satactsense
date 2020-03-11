@@ -2357,6 +2357,9 @@ input, select, textarea {
     border: 0;
     display: inline-block;
     position: relative;
+
+		
+	
 	}
 
 		.image img {
@@ -2392,6 +2395,7 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				height: 75%;
 			}
 
 /* List */
@@ -2831,6 +2835,7 @@ input, select, textarea {
     color: white;
     background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url("../images/2girls.jpg")no-repeat fixed;
     background-size: cover;
+	background-position: center;
     padding-top: 4em;
 		}
 
