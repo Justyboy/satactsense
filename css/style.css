@@ -225,20 +225,21 @@ footer {
 	margin: auto;
 	height: 100%;
 	margin-top: 20px;
-	text-align: justify;
+	text-align: center;
 }
 
 @media only screen and (max-width: 750px) {
 	.container {
 		width: 90%;
 	}
-}
-
-.container h1, h2, h3 {
+	.container h1, h2, h3 {
 	margin-top: 15px;
 	margin-left: 0;
 	font-weight: 400;
 }
+}
+
+
 
 .container span {
 	color: #757575;
