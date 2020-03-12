@@ -1,5 +1,3 @@
-
-
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
@@ -2819,7 +2817,10 @@ input, select, textarea {
 /* Main */
 
 	.main {
-		padding: 6em 0 6em 0 ;
+    padding-top: 2em;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 2em;
 	}
 
 		.main.style1 {
@@ -2830,6 +2831,8 @@ input, select, textarea {
     color: rgba(255, 255, 255, 0.75);
     background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url("../images/group.jpg")no-repeat fixed;
     background-size: cover;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 .main.style3 {
     color: white;
@@ -3255,7 +3258,10 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 6em 0 6em 0 ;
+    padding-top: 6em;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 8em;
 			}
 
 	}
