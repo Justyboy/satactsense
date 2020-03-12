@@ -167,7 +167,24 @@
       </footer>
 
     </div><!-- /.container -->
+ <div class="container">
 
+        <hr>
+
+    </div>
+    <!-- /.container -->
+<!-- Footer -->
+			<section id="footer">
+				<ul class="icons">
+					<li><a href="https://twitter.com/satactsense" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.facebook.com/satacttestprep/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li> <a href="mailto:satactsense@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					<li><a href="https://www.linkedin.com/company/sat-act-sense/about/" class="icon brands alt fa-linkedin"><span class="lable"></span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; 2020</li><li>SAT/ACT Sense</li>
+				</ul>
+			</section>
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
